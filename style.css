@@ -4,7 +4,7 @@
   --fg: #18181b;
   --muted: #52525b;
   --line: #e4e4e7;
-  --accent: #2563eb;
+  --accent: #18603b;
   --card: #fafafa;
   --error: #b91c1c;
 }
@@ -14,7 +14,7 @@
     --fg: #f4f4f5;
     --muted: #a1a1aa;
     --line: #27272a;
-    --accent: #60a5fa;
+    --accent: #5fb58a;
     --card: #141417;
     --error: #f87171;
   }
@@ -30,7 +30,9 @@ body {
 header, main, footer { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
 header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem 1.5rem;
   padding-top: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--line); }
-header .name { font-weight: 700; font-size: 1.125rem; color: var(--fg); text-decoration: none; }
+header .name { display: inline-flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 1.125rem;
+  color: var(--fg); text-decoration: none; }
+header .name img { width: 36px; height: 36px; }
 nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; font-size: 0.9375rem; }
 main { padding-top: 2rem; padding-bottom: 3rem; }
 h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 0.5rem; }
