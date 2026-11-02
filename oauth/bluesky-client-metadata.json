@@ -1,0 +1,36 @@
+{
+  "client_id": "https://bedusocial.github.io/oauth/bluesky-client-metadata.json",
+  "client_name": "BeduSocial",
+  "client_uri": "https://bedusocial.github.io/",
+  "logo_uri": "https://bedusocial.github.io/logo.png",
+  "tos_uri": "https://bedusocial.github.io/terms.html",
+  "policy_uri": "https://bedusocial.github.io/privacy.html",
+  "application_type": "web",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "scope": "atproto transition:generic",
+  "redirect_uris": [
+    "https://bedusocial.github.io/oauth/"
+  ],
+  "dpop_bound_access_tokens": true,
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "ES256",
+  "jwks": {
+    "keys": [
+      {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "iPKjhR4AeabpCPHv4vU5vfsUljpz8TURnJW3lp3AFAc",
+        "y": "E6a0HpiUusOYgcsrLrIuojxALu_TZKBOl0rYSAxzUvQ",
+        "kid": "1h6QVIT0xXCjfvGpgVDP3P5oAqmydeBFvsOuPp9qzsQ",
+        "alg": "ES256",
+        "use": "sig"
+      }
+    ]
+  }
+}
